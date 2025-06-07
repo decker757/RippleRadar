@@ -3,6 +3,6 @@ numpy
 xrpl-py
 bcrypt
 PyJWT
-flask
+Flask
 flask-cors
 dotenv
