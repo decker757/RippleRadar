@@ -32,12 +32,6 @@ def login():
         return jsonify({'error': 'Invalid credentials'}), 401
     
 
-@app.route("/api/summarize_trustlines")
-def summarize():
-    address = request.args.get("address")
-    summary = xrpl_utilities.TrustLineAnalytics.summarize_trustlines(address)
-    return jsonify(summary)
-
 @app.route("/api/get_balance")
 def get_balance():
     address = request.args.get("address")
@@ -55,6 +49,14 @@ def get_trustlines():
         return jsonify({"Trustlines": trustlines})
     except Exception as e:
         return jsonify({"error": str(e)}), 400
+    
+
+@app.route("/api/summarize_trustlines")
+def summarize():
+    address = request.args.get("address")
+    summary = xrpl_utilities.TrustLineAnalytics.summarize_trustlines(address)
+    return jsonify(summary)
+
 
 @app.route("/api/get_transaction_history")
 def get_transaction_history():

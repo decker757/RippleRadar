@@ -2,3 +2,7 @@ matplotlib
 numpy
 xrpl-py
 bcrypt
+PyJWT
+flask
+flask-cors
+dotenv

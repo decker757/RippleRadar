@@ -173,7 +173,7 @@ class TrustLineAnalytics:
     def summarize_trustlines(address):
         lines = TrustLineAnalytics.get_trustlines(address)
         summary = {
-            "total_trustlines": len(lines),
+            "total_trustlines": 0,
             "currencies": {},
         }
 
@@ -197,16 +197,16 @@ class TrustLineAnalytics:
                 "limit": limit,
             })
 
-        # FIX: Use a separate dict to store currency summary
-        currency_summary = {}
-        for currency, entries in summary["currencies"].items():
-            total_balance = sum(e["balance"] for e in entries)
-            total_limit = sum(e["limit"] for e in entries)
-            currency_summary[currency + "_summary"] = {
-                "total_balance": total_balance,
-                "total_limit": total_limit
-            }
+        # # FIX: Use a separate dict to store currency summary
+        # currency_summary = {}
+        # for currency, entries in summary["currencies"].items():
+        #     total_balance = sum(e["balance"] for e in entries)
+        #     total_limit = sum(e["limit"] for e in entries)
+        #     currency_summary[currency + "_summary"] = {
+        #         "total_balance": total_balance,
+        #         "total_limit": total_limit
+        #     }
 
-        summary["currencies"].update(currency_summary)  # safe to do after iteration
+        # summary["currencies"].update(currency_summary)  # safe to do after iteration
 
         return summary
