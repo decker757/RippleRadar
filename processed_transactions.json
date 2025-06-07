@@ -1,0 +1,2676 @@
+{
+    "all_accounts": [
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rsrvXZGL6PvjhkwizMjg6X2oUs6whChtvR",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rJytLV5BxrLonAMBzKq4Mgp2fV9cmzXMBR",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rhW3SyFhrhH2FHXZiG63hZVQmtpEsoMqW6",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rpdLgNcVwpdqT5BURkiPr16WVFPy9kxkc9",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rGwQvXNVYBGV5VxLZkccBBXNcCnFXjMJaq",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rfit2pskVNdFG6kFePnL7Mm9j7rHTGhmNb",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rQhvBrx3Ro2W9zjDBMk6w8NHzMhvnEAn8Z",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r9rjyAnkf56Ti5t1rdsNsjQ4n5NHcKAK3t",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rKBxxEkzCBAgeyuVvucHioSvHPgHs1XXrb",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rGkLQoC31gMg8HgDrNHqanq9Jto8msDK9R",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rBckEmjXdSKfXHsW7Ydy74LH7kEEqhqM4U",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnFFPe4VZ8WzNzaUS5TjKozStJxfvQrcvo",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rn8WzmCTdnyaLKdL3suwKeZ5cPK7wjjA5z",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnDzVFwKcXpnBGbg8mHvUKaPXK4thKHsz7",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnHR4vWS22YPQsTGh97DpXjowPhUC4UHN2",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "raqLjC6L6S9MVBquEevtj1ZGn5castv8zq",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnbfqVY2WMpKsPJdRDJkjHmwh6c1JhThZo",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r3Mb9z1ZypTfSMZqcSiaJN56Hqq2BpodCc",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r9maFxtcAcZEXbwiCkAjhwcvXdt6E4KL6R",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rfVYLZggtG3fe9i19FVSsuBFU7T7buSDMi",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rUDpkhaoHa3mv966pJqVWyDhh4r9gdTsLw",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rLpeR7SwVECPQheDHQTsnjFUfCiup8T6FZ",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rKzuaG9PSRq1uryaroeiQPKnsDs1E1EbkP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rMNQmQSNmW6i7PtTcgMdJJXn2nMSEe6pQk",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rNfwuwzxjSsBgeS6uZQYUxQeFToErv72wc",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rG8vUmBLXTVVYNeUFmekAKr9XHkCDA3rBD",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rHY9YEivoZBpNNhn8ZWn7Rv9Ny43Rw7Uve",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r3BNouxvPedH9XgeLsh2doq4j7owQR5tUa",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rUvnuybwX3d3CQbdXdg2m1v5vbVpYybFuW",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rsSvdhP13URLxtBMfdwwVk4wnSvFDYBeDG",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rDBswq5sRYmgjvkc3c1V1BiXrdvfaohds",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rpKyPMa1VakG6uD4VbnuYsGRxcCdMsrUyu",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rDwdfcoPKrZxM2qEWGb8UJoiMv4xL76NYu",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r9yzbqc8BAQ4jCjfTMUmc8QkGm5FtGHnUg",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rDngdAHbkk7sBXg8mZndzdNPnomU2DpZPj",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rweBpYaEVuHMPAfT7C38HviyRyVPz6DmQR",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnYK6EtE6Tqo8ymjPBVR1XCk1NbS7GiTtE",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rHy2J6y4bLsK9XPxfJmhik5GWhGUwV8BnH",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rDuq4ve4DK4GgR787ZUk5Mku2fDnXBzXEw",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rNWtqVbRNndUJRMLYMgkkwxP6hsic6EeW1",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rB2H1TWwR4zh4b4HYDqGfbZYaPwxHu6se3",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rQh9vYQFKkHffAecRfcNRXdfjWsyeMvckP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rDoUMqYGNNEuF86odetjzP7ZBGRmXKV4Pc",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "ramFjiHAjWs34UfpCgcA4SJsD1Zs1aqEZN",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rBmzGXgCamMx2YqFTHG6GGJHrb3EDdxfo6",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "raxoCtGxTcrNHBYjEmahFDGWDdV7Z38YTU",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rNjWeGUBN6EqZFQteGwrjAi6pPCbCppwM7",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r9xdqzajAdueqSWsiTXetcUrsjFEhSnrf5",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rpaji3odwcdksFsM23RG4taGNerwWxJKF5",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r4GSPeodwvBn9AsWAt5HvspbxQwPmuj7CH",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "raT7pKExSH5cxc6uJpJAWGxbnynoFiLukP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rB81CnUy2P1wAiMJkYc3yVaYBFPuKat8Qg",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rMMQismVCC1MC91osjCJNBUreoowZbT8br",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rsVxeKPVwAM7W2sVXpSTgUncckVVkMv17N",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rfnyGU1c6o5RkMGATqF1xT758VDRcoQUz2",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rUwTisPpzQpEhbu89CfHsvZjuWwNsVyqjF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rMLN9VHTRv8fbo77ZLA7bEuS9ieCNeoxir",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnhaotiELtYbcmcuwYsgNEN4Yyyu6JjWTu",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r4Lk2birnZvK3zsdq4WbgscCqjzvxSWF1a",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rKcD3xpjkuwapFgwQJWjJVm1y7UR353QVT",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rE8EGE1mj8i11WTPca6Y2qSD46wWzMAZsx",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rKibHAYvjhTaBUVQk2Pv3JwiCczbUJzPW",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rwUmQ6Yp5jZRfmUtfPnaY5hE1hcdFeaezS",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r9knTJmB5sUAmNEyccH9CjGYDTJw8zNraQ",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rMggKbeM39dBL19VkoFxHa4MJDVgDb4hbE",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rBTW2kjniTAD68qRgo9wmyXVb8ewrKApda",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rHD32V77bZRUMjZWpXJDKyje79HJUPiqkF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r2BooXA4sEGebowvXUW9QT4S1CTV3Medd",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rBvv4uPNE5dqEXpjGSHLijm2pUTjEkn2Xa",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r1mxPVz2mHdLhoX96jPy14RQxxBVkW1tt",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rh5HsiFGxeo6Ncqrubc8xHnRscbYyjcVpm",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rBSJvXczzQZJnVbjSqF9CEDzZG1aPA8kNq",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnki2YL7o97RuW4FQ9MU3SCfCTXE5Ap5VR",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r3qebgzfnj8odT4uLUk7CkikwnocE1HFgB",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rBEARfs1AodQDB3fZ9hLyseoqULrYyAn9V",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rJ3iXML2sZX18QkXaVmopKdWMriHeiifTW",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rQ3kikhco6uJFhKjhyk6AQiYxNdkxfMcjU",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rsbTw6xiaNPvgkFKJkTNhGjsNRDqREdBQL",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rnrowXayT4tvxZgeQsbX3YaAXH1o2xD5Zb",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rfoahQ64YirJSciYHBW4faKKtS3ouPF3g1",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r39XWqnzrKjhjyTyK8gnzarwe8WFhzQY84",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r3BWUeZs4AmnARuXYijA7M7wki6VGgsVoM",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rhsxWpQFJFj8WSu4CjZ6EmKof5Fdqd2Mgq",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r4pExCEzQ2dqPtDJ3dFdWYp2q1GH2FftVN",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rUgwjv4gPQWPUywpXZdfrR7gyzvyBwTbFH",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rUZ1kCxc5WpDsm8267khftbAWhnDWoVNod",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r3Zsns6aNSWKs6aRV4hy8ghybfHgi27kiw",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r9uCBt4axWM7VoqnV1hFxm8AeatvHvGsCt",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rNaa4vHVdj2mdKaJJZzxJnaLdA87LCrEw8",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rUMA1XjEtJCvUBpHhFx4YXAQXoeA9ewSRC",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rBffoWrwT3VXkV3ZBhgmFEZ33AS2sfpkyw",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "ra17QHYErXiQLmyGMwKCXyaCAu6LCqpRer",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "rn5NdBBGnNp93LRfvKVQtX5S9rkfuYrhmj",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "r3HdZzCjHKYZhLpnRghwi9BnP4NicBRN19",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDUu2raDp9qsPHWXM65e8bZAa8D7PFufr8",
+            "adjacent": {
+                "destination": "raLa4MwLDVHMUX2mKz5hEUf9uh7vQTQRsY",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rwLCaBLPKcE55pjgmEicUYTtXHr8VawD9Z",
+            "adjacent": {
+                "destination": "rJrwG93cz1FhKh6EGyaDP4JCBF6JvJQS5o",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rwLCaBLPKcE55pjgmEicUYTtXHr8VawD9Z",
+            "adjacent": {
+                "destination": "rDQGYVoUiYoxZdUACkAAJAaAjqxZQWQy3s",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r4D1JmzMJLqe4oXk4LhukfAQN8f2fcSDhv",
+            "adjacent": {
+                "destination": "rDsijVJZWVeEZ3NESy66pFXDeVdrm7h72u",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r4D1JmzMJLqe4oXk4LhukfAQN8f2fcSDhv",
+            "adjacent": {
+                "destination": "rD37r1cciGqmdBpqou2DneEiWA1iQsAphP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rhVGXf3KKNa2nox1544s4sVrDw3NSfwwUB",
+            "adjacent": {
+                "destination": "rnDGxzUM2snx58Bvyn72xhJKqvkDxo2tQm",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rhVGXf3KKNa2nox1544s4sVrDw3NSfwwUB",
+            "adjacent": {
+                "destination": "rhubarbMVC2nzASf3qSGQcUKtLnAzqcBjp",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rBVY8i3SLYTRjvHZg25M4x3j6p9rzH8SFk",
+            "adjacent": {
+                "destination": "rTLdxcBkCUeNR1rJc7KVz3uqchfR73hpF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 314.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rHcWmKpDf4GJiJjuCyXfTwCMqhWsjzecN9",
+            "adjacent": {
+                "destination": "rKiZVGTWKjSoAEeRa33PNXAuEtt2JDmhxK",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rfQ9EcLkU6WnNmkS3EwUkFeXeN47Rk8Cvi",
+            "adjacent": {
+                "destination": "rsL5Zm3mF3DfuenXALHJfMyYwvK3dgzuur",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 540201510.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rKvnYgPFfaXiGWK6ySVQpcBnEkeneeTABm",
+            "adjacent": {
+                "destination": "rPtiQk4NsUT1UcG9kgNA3phZm7jeSKbNcP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1350000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rptowXFUbBs1fxpscyGxqv2n3xYg7NJfBh",
+            "adjacent": {
+                "destination": "rpWTbLpWhox6N5WZmn2WsYGTizjjBuW1gi",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rGErtsopPj3sWiVWLHjTaAgkaPsNuBkAec",
+            "adjacent": {
+                "destination": "r4DAkW6KzKGPK6azRZz9yofkMv7BZt3ZYg",
+                "data": [
+                    {
+                        "currency": "464C4447525F6E6A696533000000000000000000",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rwtk4ZvffLedRFjTE2tyyTj6em58urK2UL",
+            "adjacent": {
+                "destination": "rwtk4ZvffLedRFjTE2tyyTj6em58urK2UL",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1848484.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rEfFuPx3g6DkXA64xHjDPHGQaPyCVUAViL",
+            "adjacent": {
+                "destination": "rTLdxcBkCUeNR1rJc7KVz3uqchfR73hpF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 314.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "raiodoR7rRvm5ZxEB2VyNnPHjQkxwagmdr",
+            "adjacent": {
+                "destination": "rUnvRUTCThgHP8PXGxpaxYQYQCFbNSEdDw",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "raiodoR7rRvm5ZxEB2VyNnPHjQkxwagmdr",
+            "adjacent": {
+                "destination": "rUrdFJ7qK477Q5zZ8dRHXv4BjvGf7soVAZ",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rUbt82cnFDjcet7MybRZ9NhN1istJ3qYbm",
+            "adjacent": {
+                "destination": "rL5YKy5TMrg4KjaSsBmjjCPcgLypADAisM",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rUbt82cnFDjcet7MybRZ9NhN1istJ3qYbm",
+            "adjacent": {
+                "destination": "rBsQpptJ8Hwps5BnwBuUKpw2PYic9D313m",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rQpV2q4jVfVd6q4tqcL1Age5XrrEMojynM",
+            "adjacent": {
+                "destination": "r9jRXTQ8ndQ3nWQEVP71dAQRKxdDVNGEsX",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rhubarbMVC2nzASf3qSGQcUKtLnAzqcBjp",
+            "adjacent": {
+                "destination": "rhubarbMVC2nzASf3qSGQcUKtLnAzqcBjp",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 759766.0
+                    },
+                    {
+                        "currency": "536B657463680000000000000000000000000000",
+                        "amount": 473042.385903
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 1220.039693344418
+                    },
+                    {
+                        "currency": "425249434B590000000000000000000000000000",
+                        "amount": 9419708.125991
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 804.67780932861
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 7.949573976912745
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 501038.0
+                    },
+                    {
+                        "currency": "584F4E4500000000000000000000000000000000",
+                        "amount": 8.69453754288e-07
+                    },
+                    {
+                        "currency": "CSC",
+                        "amount": 9824.78232560336
+                    },
+                    {
+                        "currency": "636F7265756D3763386562323965303700000000",
+                        "amount": 8.108565456451
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r4DymtkgUAh2wqRxVfdd3Xtswzim6eC6c5",
+            "adjacent": {
+                "destination": "rD37r1cciGqmdBpqou2DneEiWA1iQsAphP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 44372000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rRmgo6NW1W7GHjC5qEpcpQnq8NE74ZS1P",
+            "adjacent": {
+                "destination": "rD37r1cciGqmdBpqou2DneEiWA1iQsAphP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 64991483.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rKi3emQ3YH2mEEa2C4XAavbkSRsLE73bYA",
+            "adjacent": {
+                "destination": "rKi3emQ3YH2mEEa2C4XAavbkSRsLE73bYA",
+                "data": [
+                    {
+                        "currency": "534545445A000000000000000000000000000000",
+                        "amount": 3617.790886529
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rKi3emQ3YH2mEEa2C4XAavbkSRsLE73bYA",
+            "adjacent": {
+                "destination": "rJGb4etn9GSwNHYVu7dNMbdiVgzqxaTSUG",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 30000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDpP4VqnAnyyGp16t4Ybosu9drubYAUVzd",
+            "adjacent": {
+                "destination": "ryouhapPYV5KNHmFUKrjNqsjxhnxvQiVt",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 90000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rKnp6Gg9w1EyHgLY6c7GdeixdxCct846tu",
+            "adjacent": {
+                "destination": "rPtiQk4NsUT1UcG9kgNA3phZm7jeSKbNcP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rKnp6Gg9w1EyHgLY6c7GdeixdxCct846tu",
+            "adjacent": {
+                "destination": "rHZ4RrbbWRTZXGZYMxsdm5vCBLzJCQkz3E",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rWCognGQjRK6DEQBEy5FD86tKvcNaDeKh",
+            "adjacent": {
+                "destination": "rWCognGQjRK6DEQBEy5FD86tKvcNaDeKh",
+                "data": [
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 597.82025615066
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 372218.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 625.9159145718
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 389654.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 157.30473663171
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 195797.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 97924.0
+                    },
+                    {
+                        "currency": "5852504E4F4D4943530000000000000000000000",
+                        "amount": 0.0018915154408903
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDQGYVoUiYoxZdUACkAAJAaAjqxZQWQy3s",
+            "adjacent": {
+                "destination": "rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 2277876581.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rHZ4RrbbWRTZXGZYMxsdm5vCBLzJCQkz3E",
+            "adjacent": {
+                "destination": "rKiZVGTWKjSoAEeRa33PNXAuEtt2JDmhxK",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 5000000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r3QxBXQs2XZ9oMPLsjB2fkFgKTcxC5TRMq",
+            "adjacent": {
+                "destination": "r3QxBXQs2XZ9oMPLsjB2fkFgKTcxC5TRMq",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 595138.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 955.7477910662
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 391431.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 628.7446369801
+                    },
+                    {
+                        "currency": "44524F5049540000000000000000000000000000",
+                        "amount": 0.092697739103
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 195918.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 156.60418440251
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 97487.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJYK7GpAGtsJ4dXhr3y5xF7g4z5HrJYqXB",
+            "adjacent": {
+                "destination": "rJYK7GpAGtsJ4dXhr3y5xF7g4z5HrJYqXB",
+                "data": [
+                    {
+                        "currency": "44524F5049540000000000000000000000000000",
+                        "amount": 2.3749117247224
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 4998425.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rBadHTPHCN8LqYXJsws6ooPBWGS2KsTC9o",
+            "adjacent": {
+                "destination": "r3ANFn5T6kg3fY1igHigokLr8ejyh2EBa1",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r3CUuqXukpx393PvgP6Cn2z3kx5vPmesWf",
+            "adjacent": {
+                "destination": "r3QxBXQs2XZ9oMPLsjB2fkFgKTcxC5TRMq",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJrwG93cz1FhKh6EGyaDP4JCBF6JvJQS5o",
+            "adjacent": {
+                "destination": "rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 456621005.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rUnvRUTCThgHP8PXGxpaxYQYQCFbNSEdDw",
+            "adjacent": {
+                "destination": "razLtrbzXVXYvViLqUKLh8YenGLJid9ZTW",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 8159800.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rHANiDHMzP14JDimMPH1RvHJib1uuRDSMY",
+            "adjacent": {
+                "destination": "rJGb4etn9GSwNHYVu7dNMbdiVgzqxaTSUG",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 100000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rHANiDHMzP14JDimMPH1RvHJib1uuRDSMY",
+            "adjacent": {
+                "destination": "rHANiDHMzP14JDimMPH1RvHJib1uuRDSMY",
+                "data": [
+                    {
+                        "currency": "XFT",
+                        "amount": 650630.44395898
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rD4Kkv5dtqMwbMtVmKGXTHuwGqooJJE683",
+            "adjacent": {
+                "destination": "rD4Kkv5dtqMwbMtVmKGXTHuwGqooJJE683",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 7846401.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r3S8AV7DQ6URd9qhKkDc2vD6XCaNU34328",
+            "adjacent": {
+                "destination": "rKNwXQh9GMjaU8uTqKLECsqyib47g5dMvo",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 100000000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r3ZvTZT2fmckzFrCUE7bfxCBd3koGkBos9",
+            "adjacent": {
+                "destination": "rKvnYgPFfaXiGWK6ySVQpcBnEkeneeTABm",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1000000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rLhDWnBFitrn8iW8e5m7bVKqFS5raK1NbP",
+            "adjacent": {
+                "destination": "rLhDWnBFitrn8iW8e5m7bVKqFS5raK1NbP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 694715.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 1115.49231719237
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 346895.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 557.17141101039
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 398.33453204896
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 247995.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDQSFBVK7Nrh2tTCmPPRjpjxdTZ2afhvFz",
+            "adjacent": {
+                "destination": "rXzRVoohqvahY4zyUrfmznpVgkLJsDCtd",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDQSFBVK7Nrh2tTCmPPRjpjxdTZ2afhvFz",
+            "adjacent": {
+                "destination": "rD4ekRUmqjL3Bd6jgWnu8rUJcwqw2VZsDg",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDQSFBVK7Nrh2tTCmPPRjpjxdTZ2afhvFz",
+            "adjacent": {
+                "destination": "r4jqLe6f6kUhmjbVCESwcLVjWSZFTLYczE",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDQSFBVK7Nrh2tTCmPPRjpjxdTZ2afhvFz",
+            "adjacent": {
+                "destination": "rDsxqzXUrmNs2jnqvG7pS2g2qA3x43uQyE",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rP6L1szkkuReSSxXxxJ8DuaTq7N6DmCYff",
+            "adjacent": {
+                "destination": "rKvnYgPFfaXiGWK6ySVQpcBnEkeneeTABm",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rM8W8ktNG2zus7fWY3ZHSxH9Q3EZnqAkcN",
+            "adjacent": {
+                "destination": "rTLdxcBkCUeNR1rJc7KVz3uqchfR73hpF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 314.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rEzfgQsrDJv2FEicggKcmvzwLRKnd7QP3S",
+            "adjacent": {
+                "destination": "rTLdxcBkCUeNR1rJc7KVz3uqchfR73hpF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1256.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rvVQGvHGBtZnQVJgv7JneUn6QiBQv2zqD",
+            "adjacent": {
+                "destination": "ryouhapPYV5KNHmFUKrjNqsjxhnxvQiVt",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 4500.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rMmByJCgBXCtMqJLyVkYgGneDXj2DeQtm2",
+            "adjacent": {
+                "destination": "rPAG9xibmA9fowK5o8vgZsfE7MjHH5jw4M",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rMmByJCgBXCtMqJLyVkYgGneDXj2DeQtm2",
+            "adjacent": {
+                "destination": "rHmWdMEaPew3rkvsN2UpUuKQZUr2rDU93e",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rMmByJCgBXCtMqJLyVkYgGneDXj2DeQtm2",
+            "adjacent": {
+                "destination": "rD37r1cciGqmdBpqou2DneEiWA1iQsAphP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rG6CkETpR7JSXD7xdCHDmJzAvZNr1tLrrV",
+            "adjacent": {
+                "destination": "rTLdxcBkCUeNR1rJc7KVz3uqchfR73hpF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1256.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rEiq1iAcpzP8WLjezP9MzAQEJ7jqKMLFSA",
+            "adjacent": {
+                "destination": "rKKbNYZRqwPgZYkFWvqNUFBuscEyiFyCE",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 116182030.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJzpr3FMsGRtL4HjxnzAsKza3xGftbYumN",
+            "adjacent": {
+                "destination": "rJFJr7YfC2BS34uDQQuyBzJoyVy7saNmFa",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJzpr3FMsGRtL4HjxnzAsKza3xGftbYumN",
+            "adjacent": {
+                "destination": "rJCYTGjyXMjtURPK4TFP2wbmSMPbe9CRoM",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJzpr3FMsGRtL4HjxnzAsKza3xGftbYumN",
+            "adjacent": {
+                "destination": "ra4haepf6fehiCfVvB33j1D7vmv7JJD8M5",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJzpr3FMsGRtL4HjxnzAsKza3xGftbYumN",
+            "adjacent": {
+                "destination": "rJYK7GpAGtsJ4dXhr3y5xF7g4z5HrJYqXB",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJzpr3FMsGRtL4HjxnzAsKza3xGftbYumN",
+            "adjacent": {
+                "destination": "rE8ExzknX8uZvGhByjDgSayCtWnvvSJWeh",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rnDGxzUM2snx58Bvyn72xhJKqvkDxo2tQm",
+            "adjacent": {
+                "destination": "rhdY3ZsReDvmLnAa2RtT1CVtvJhKEg9Zx2",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 20317835.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rpWTbLpWhox6N5WZmn2WsYGTizjjBuW1gi",
+            "adjacent": {
+                "destination": "rHzykWRVdAfEHk6c5fQxyYYHF9waQXN5Dz",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 100000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rpWTbLpWhox6N5WZmn2WsYGTizjjBuW1gi",
+            "adjacent": {
+                "destination": "rpWTbLpWhox6N5WZmn2WsYGTizjjBuW1gi",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 4692354.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r5Mw4ybyp6aLz3WyUb4w7dAxi69wx12b5",
+            "adjacent": {
+                "destination": "rTLdxcBkCUeNR1rJc7KVz3uqchfR73hpF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 942.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rnXZ876yGEhoATQSYegtD8bg8wpA8TTX5a",
+            "adjacent": {
+                "destination": "rhdY3ZsReDvmLnAa2RtT1CVtvJhKEg9Zx2",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r3QhmV3DmqVuaZvs2Zm1Y1JRyHPCfQGMfn",
+            "adjacent": {
+                "destination": "rTLdxcBkCUeNR1rJc7KVz3uqchfR73hpF",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 942.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rUjfTQpvBr6wsGGxMw6sRmRQGG76nvp8Ln",
+            "adjacent": {
+                "destination": "rL5YKy5TMrg4KjaSsBmjjCPcgLypADAisM",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 200000000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rWDwqFVGDFQFooat1TtPq1B1DYCU6ZJrh",
+            "adjacent": {
+                "destination": "rWCognGQjRK6DEQBEy5FD86tKvcNaDeKh",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rMvCasZ9cohYrSZRNYPTZfoaaSUQMfgQ8G",
+            "adjacent": {
+                "destination": "rD37r1cciGqmdBpqou2DneEiWA1iQsAphP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 103360000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rMdG3ju8pgyVh29ELPWaDuA74CpWW6Fxns",
+            "adjacent": {
+                "destination": "rM4zUC8fBnreS87fMS3BSL3eVmpxRdGJUA",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 48962112.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rMdG3ju8pgyVh29ELPWaDuA74CpWW6Fxns",
+            "adjacent": {
+                "destination": "rHmWdMEaPew3rkvsN2UpUuKQZUr2rDU93e",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 21444948.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rDArpKZKDkQV9xotc3y95LjNPUVDGzR2DK",
+            "adjacent": {
+                "destination": "rDArpKZKDkQV9xotc3y95LjNPUVDGzR2DK",
+                "data": [
+                    {
+                        "currency": "424F4C5400000000000000000000000000000000",
+                        "amount": 42672.60307951
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rXPMusrUYj1t1DM2m3n6y1jjdTv3X81ZQ",
+            "adjacent": {
+                "destination": "rDV1BnheCDHhPHtaPLEJh1x424BfiWZV2Q",
+                "data": [
+                    {
+                        "currency": "XPM",
+                        "amount": 25.814
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rG5qTtdo7Q6NJp5j45NYourYBxru3X7hM3",
+            "adjacent": {
+                "destination": "rD37r1cciGqmdBpqou2DneEiWA1iQsAphP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 14000000.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rJZdFK5kQJX1zCBTJ5wEi1DXZrjTyCa4Sr",
+            "adjacent": {
+                "destination": "ryouhapPYV5KNHmFUKrjNqsjxhnxvQiVt",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 4500.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rf7QoGcRk2aFMSQNY3zt6FsADavoVucLni",
+            "adjacent": {
+                "destination": "rsL5Zm3mF3DfuenXALHJfMyYwvK3dgzuur",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rnWe4KrKbqkfrLvhzu5WqitFYUJSarPbVw",
+            "adjacent": {
+                "destination": "rnWe4KrKbqkfrLvhzu5WqitFYUJSarPbVw",
+                "data": [
+                    {
+                        "currency": "4E55545300000000000000000000000000000000",
+                        "amount": 1281942.41155738
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rGuhZqkVANWyHQUSWQzCLPKnho9gzVUPng",
+            "adjacent": {
+                "destination": "rGuhZqkVANWyHQUSWQzCLPKnho9gzVUPng",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 22407.0
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 35.98759267727
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rhWj9gaovwu2hZxYW7p388P8GRbuXFLQkK",
+            "adjacent": {
+                "destination": "raQwCVAJVqjrVm1Nj5SFRcX8i22BhdC9WA",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 18033588.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 2310367200.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rss7Vw3oNN6qheasqV4ErJRYE8hEwwFcq6",
+            "adjacent": {
+                "destination": "rPhJ3rHHTskzaT5zqZQHymHvGHS6YDnjgz",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rLBSbJgwwVbbrf9eLcK23mWeVSDQwV8kYj",
+            "adjacent": {
+                "destination": "rLhDWnBFitrn8iW8e5m7bVKqFS5raK1NbP",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    },
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rLBSbJgwwVbbrf9eLcK23mWeVSDQwV8kYj",
+            "adjacent": {
+                "destination": "raThoessePsPKrpUoGUxPEmsHX4JDLdSfG",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r9d7SBJAcfjzhP87CJb4aWrK7Z7dXj73TT",
+            "adjacent": {
+                "destination": "rQrqppDZMMKeq1x9gDuoytWeRLmLfXYV3q",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "account": "rogue5HnPRSszD9CWGSUz8UGHMVwSSKF6",
+            "adjacent": {
+                "destination": "rogue5HnPRSszD9CWGSUz8UGHMVwSSKF6",
+                "data": [
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 41.4010134
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009393280826
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.268583413656587
+                    },
+                    {
+                        "currency": "46555A5A59000000000000000000000000000000",
+                        "amount": 79.56167251301783
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009350751342
+                    },
+                    {
+                        "currency": "536B657463680000000000000000000000000000",
+                        "amount": 3004.49707849
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.258309350133186
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 5.268802461381313
+                    },
+                    {
+                        "currency": "586D656E00000000000000000000000000000000",
+                        "amount": 31.11535646194153
+                    },
+                    {
+                        "currency": "425249434B590000000000000000000000000000",
+                        "amount": 57506.1491126
+                    },
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 41.2134918
+                    },
+                    {
+                        "currency": "46555A5A59000000000000000000000000000000",
+                        "amount": 2.120202456760424
+                    },
+                    {
+                        "currency": "536B657463680000000000000000000000000000",
+                        "amount": 80.06605858
+                    },
+                    {
+                        "currency": "425249434B590000000000000000000000000000",
+                        "amount": 1532.3251729
+                    },
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 41.0267971
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009308409282
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 0.1404047348419086
+                    },
+                    {
+                        "currency": "58434F5245000000000000000000000000000000",
+                        "amount": 0.127508462306
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.1246349289334935
+                    },
+                    {
+                        "currency": "586D656E00000000000000000000000000000000",
+                        "amount": 0.8291781892804182
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.248080589652744
+                    },
+                    {
+                        "currency": "636F7265756D3930356330393837333200000000",
+                        "amount": 0.60034826993
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.02351816013421506
+                    },
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 40.8409278
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.237897033345839
+                    },
+                    {
+                        "currency": "636F7265756D3763386562323965303700000000",
+                        "amount": 0.02398852333689937
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.1246722657437693
+                    },
+                    {
+                        "currency": "58434F5245000000000000000000000000000000",
+                        "amount": 0.127529772381
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009266254249
+                    },
+                    {
+                        "currency": "534F4C4F00000000000000000000000000000000",
+                        "amount": 0.012675600329967
+                    },
+                    {
+                        "currency": "636F7265756D3763386562323965303700000000",
+                        "amount": 0.004307940618
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009224283612
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.1247079578513674
+                    },
+                    {
+                        "currency": "636F7265756D3930356330393837333200000000",
+                        "amount": 0.09730320906239866
+                    },
+                    {
+                        "currency": "58434F5245000000000000000000000000000000",
+                        "amount": 0.127549388575
+                    },
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 40.6558722
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.00417716351092969
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.227758047803386
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.124742004229904
+                    },
+                    {
+                        "currency": "58434F5245000000000000000000000000000000",
+                        "amount": 0.12756731073
+                    },
+                    {
+                        "currency": "636F7265756D3763386562323965303700000000",
+                        "amount": 0.004312666543
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.21766358809373
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.004181794329063174
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009182497192
+                    },
+                    {
+                        "currency": "636F7265756D3930356330393837333200000000",
+                        "amount": 0.09741070143409909
+                    },
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 40.4716295
+                    },
+                    {
+                        "currency": "425249434B590000000000000000000000000000",
+                        "amount": 156508.8149732
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 14.34358182984489
+                    },
+                    {
+                        "currency": "536B657463680000000000000000000000000000",
+                        "amount": 8172.87123484
+                    },
+                    {
+                        "currency": "46555A5A59000000000000000000000000000000",
+                        "amount": 216.4183373931602
+                    },
+                    {
+                        "currency": "444F4E4E49450000000000000000000000000000",
+                        "amount": 87.10753772118233
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.207613655629371
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.1247744029133054
+                    },
+                    {
+                        "currency": "58434F5245000000000000000000000000000000",
+                        "amount": 0.12758353773
+                    },
+                    {
+                        "currency": "58434F5245000000000000000000000000000000",
+                        "amount": 0.127566633403
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009140894997
+                    },
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 40.2881996
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.1247744029133054
+                    },
+                    {
+                        "currency": "586D656E00000000000000000000000000000000",
+                        "amount": 140.45873193572
+                    },
+                    {
+                        "currency": "58434F5245000000000000000000000000000000",
+                        "amount": 0.127610901522
+                    },
+                    {
+                        "currency": "425249434B590000000000000000000000000000",
+                        "amount": 246403.6928995
+                    },
+                    {
+                        "currency": "4D454C414E494100000000000000000000000000",
+                        "amount": 0.009099476695
+                    },
+                    {
+                        "currency": "434F524500000000000000000000000000000000",
+                        "amount": 0.1248342449835487
+                    },
+                    {
+                        "currency": "424152524F4E5452554D50000000000000000000",
+                        "amount": 40.1055812
+                    },
+                    {
+                        "currency": "245452554D500000000000000000000000000000",
+                        "amount": 2.197608171123592
+                    },
+                    {
+                        "currency": "5354494D50590000000000000000000000000000",
+                        "amount": 22.5939026804931
+                    }
+                ]
+            }
+        },
+        {
+            "account": "r4jqLe6f6kUhmjbVCESwcLVjWSZFTLYczE",
+            "adjacent": {
+                "destination": "rDsijVJZWVeEZ3NESy66pFXDeVdrm7h72u",
+                "data": [
+                    {
+                        "currency": "XRP",
+                        "amount": 2000000.0
+                    }
+                ]
+            }
+        }
+    ]
+}
