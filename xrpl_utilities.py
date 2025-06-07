@@ -183,7 +183,11 @@ class TrustLineAnalytics:
             balance = float(line["balance"])
             limit = float(line["limit"])
 
-            if balance == 0 and limit == 0:
+            if (
+                float(line["balance"]) == 0 and
+                float(line["limit"]) == 0 and
+                float(line.get("limit_peer", 0)) == 0
+            ):
                 continue
 
             summary["total_trustlines"] += 1
@@ -197,16 +201,15 @@ class TrustLineAnalytics:
                 "limit": limit,
             })
 
-        # # FIX: Use a separate dict to store currency summary
-        # currency_summary = {}
-        # for currency, entries in summary["currencies"].items():
-        #     total_balance = sum(e["balance"] for e in entries)
-        #     total_limit = sum(e["limit"] for e in entries)
-        #     currency_summary[currency + "_summary"] = {
-        #         "total_balance": total_balance,
-        #         "total_limit": total_limit
-        #     }
+        currency_summary = {}
+        for currency, entries in summary["currencies"].items():
+            total_balance = sum(e["balance"] for e in entries)
+            total_limit = sum(e["limit"] for e in entries)
+            currency_summary[currency + "_summary"] = {
+                "total_balance": total_balance,
+                "total_limit": total_limit
+            }
 
-        # summary["currencies"].update(currency_summary)  # safe to do after iteration
+        summary["currencies"].update(currency_summary)  # safe to do after iteration
 
         return summary
