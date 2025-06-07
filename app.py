@@ -49,7 +49,28 @@ def get_trustlines():
         return jsonify({"Trustlines": trustlines})
     except Exception as e:
         return jsonify({"error": str(e)}), 400
+
+@app.route("/api/trustlines_visualised")
+def get_trustlines_visualised():
+    address = request.args.get("address")
+    try:
+        trustlines = xrpl_utilities.TrustLineAnalytics.get_trustlines(address)
+
+        # Simplify: keep only balance, currency, limit
+        simplified = [
+            {   
+                "account": tl.get("account"),
+                "balance": tl.get("balance"),
+                "currency": tl.get("currency"),
+                "limit": tl.get("limit")
+            }
+            for tl in trustlines
+        ]
+
+        return jsonify({"Trustlines": simplified})
     
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 @app.route("/api/summarize_trustlines")
 def summarize():
@@ -66,7 +87,6 @@ def get_transaction_history():
         return jsonify({"Transaction History": transaction_history})
     except Exception as e:
         return jsonify({"error": str(e)})
-
 
 
 if __name__ == "__main__":
