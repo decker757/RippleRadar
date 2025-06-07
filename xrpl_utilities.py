@@ -172,8 +172,6 @@ class TrustLineAnalytics:
     @staticmethod
     def summarize_trustlines(address):
         lines = TrustLineAnalytics.get_trustlines(address)
-        print("DEBUG - Trustlines:", lines)
-
         summary = {
             "total_trustlines": 0,
             "currencies": {},
