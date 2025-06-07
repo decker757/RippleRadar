@@ -1,18 +1,26 @@
 from xrpl.clients import JsonRpcClient
 from xrpl.models.requests.account_info import AccountInfo
-from xrpl.models.transactions import TrustSet
+from xrpl.models.transactions import TrustSet, TrustSetFlag, Payment, AccountSet, AccountSetFlag
 from xrpl.models.amounts import IssuedCurrencyAmount
-from xrpl.transaction import autofill_and_sign
-from xrpl.transaction import submit_and_wait
-from xrpl.models.requests import AccountLines
-from xrpl.models.requests import AccountTx
-
+from xrpl.transaction import autofill_and_sign, submit_and_wait
+from xrpl.models.requests import AccountLines, AccountTx
+from xrpl.wallet import Wallet, generate_faucet_wallet
+from xrpl import XRPLException
 
 import json
 import xrpl
 
+from dotenv import load_dotenv
 
+import os 
 
+load_dotenv()
+
+wallet1 = Wallet.from_seed(os.getenv("WALLET1_SEED"))
+wallet2 = Wallet.from_seed(os.getenv("WALLET2_SEED"))
+wallet3 = Wallet.from_seed(os.getenv("WALLET3_SEED"))
+wallet4 = Wallet.from_seed(os.getenv("WALLET4_SEED"))
+wallet5 = Wallet.from_seed(os.getenv("WALLET5_SEED"))
 JSON_RPC_URL = "https://s.altnet.rippletest.net:51234/"
 client = JsonRpcClient(JSON_RPC_URL)
 
@@ -31,6 +39,59 @@ def get_account_info(address):
 #Get Account Balance in XRP
 def get_balance(address):
     return float(get_account_info(address)["Balance"])/1000000
+
+def create_dummy_accounts():
+    wallet = generate_faucet_wallet(client, debug=True)
+    print("Classic address:", wallet.classic_address)
+    print("Seed:", wallet.seed)
+
+#Injecting foreign currencies into test accounts
+def inject_issued_currency(issuer_wallet: Wallet, recipient_address: str, currency: str, value: float, client: JsonRpcClient):
+    """
+    Issues custom currency (IOU) from issuer to recipient wallet.
+
+    Args:
+        issuer_wallet (Wallet): XRPL wallet of the issuer.
+        recipient_address (str): Classic address of the recipient wallet.
+        currency (str): Currency code (e.g., 'BTC', 'USD').
+        value (float): Amount of IOU to issue.
+        client (JsonRpcClient): Connected XRPL client.
+
+    Returns:
+        dict: Result of the transaction submission.
+    """
+    payment_tx = Payment(
+        account=issuer_wallet.classic_address,
+        destination=recipient_address,
+        amount=IssuedCurrencyAmount(
+            currency=currency,
+            issuer=issuer_wallet.classic_address,
+            value=str(value)
+        )
+    )
+
+    signed_tx = autofill_and_sign(payment_tx, client, issuer_wallet)
+    response = submit_and_wait(signed_tx, client)
+    return response.result
+
+issuer_wallet = Wallet.from_seed(seed=os.getenv("WALLET3_SEED"))
+recipient = os.getenv("WALLET1_ADDRESS")
+# inject_issued_currency(
+#     issuer_wallet=issuer_wallet,
+#     recipient_address=recipient,
+#     currency="ETH",
+#     value=500,
+#     client=client
+# )
+
+# inject_issued_currency(
+#     issuer_wallet=wallet3,
+#     recipient_address=wallet2.classic_address,
+#     currency="ETH",
+#     value=1000,
+#     client=client
+# )
+
 
 class Transaction:
     @staticmethod
@@ -155,6 +216,110 @@ class TrustLine:
         response = submit_and_wait(signed_tx, client)
         return response.result
     
+    @staticmethod
+    def send_issued_currency(wallet: Wallet, destination: str, currency_code: str, 
+                            issuer: str, amount: float, client) -> dict:
+        """
+        Safely sends an IOU payment through the issuer.
+        
+        Args:
+            wallet: Sender's wallet (must hold the IOU)
+            destination: Receiver's address (must trust issuer)
+            currency_code: Currency to send (e.g., "ETH")
+            issuer: Original issuer's address (Wallet 3 in your case)
+            amount: Amount to send (will auto-convert to string)
+            client: XRPL client connection
+            
+        Returns:
+            Transaction result dictionary
+            
+        Raises:
+            XRPLException: If any pre-check fails or transaction errors occur
+        """
+        # ===== 1. Pre-flight Checks =====
+        # Check receiver's trust line
+        receiver_lines = AccountLines(account=destination, peer=issuer)
+        receiver_response = client.request(receiver_lines)
+        
+        if not receiver_response.result.get("lines"):
+            raise XRPLException(f"Receiver {destination} doesn't trust issuer {issuer} for {currency_code}")
+
+        # Check sender's balance
+        sender_lines = AccountLines(account=wallet.classic_address, peer=issuer)
+        sender_response = client.request(sender_lines)
+        
+        sender_balance = next(
+            (float(line["balance"]) 
+             for line in sender_response.result["lines"] 
+             if line["currency"] == currency_code),
+            0
+        )
+        
+        if sender_balance < float(amount):
+            raise XRPLException(
+                f"Insufficient balance. Sender has {sender_balance} {currency_code}, "
+                f"tried to send {amount}"
+            )
+
+        # ===== 2. Prepare Transaction =====
+        payment = Payment(
+            account=wallet.classic_address,
+            destination=destination,
+            amount=IssuedCurrencyAmount(
+                currency=currency_code,
+                issuer=issuer,
+                value=str(amount)
+            ),
+            send_max=IssuedCurrencyAmount(
+                currency=currency_code,
+                issuer=issuer,
+                value=str(amount)
+            )
+        )
+
+        # ===== 3. Submit Transaction =====
+        try:
+            signed = autofill_and_sign(payment, client, wallet)
+            response = submit_and_wait(signed, client)
+            
+            if response.is_successful():
+                return response.result
+            else:
+                raise XRPLException(f"Transaction failed: {response.result}")
+                
+        except Exception as e:
+            raise XRPLException(f"Submission error: {str(e)}")
+
+
+    @staticmethod
+    def clear_no_ripple_flag(wallet, issuer_address, currency_code, limit, client):
+        """
+        Disables the No Ripple flag on a trust line.
+
+        Args:
+            wallet (Wallet): The wallet to set the trust line for.
+            issuer_address (str): The address of the token issuer.
+            currency_code (str): The currency (e.g., "ETH").
+            limit (float): The trust limit (e.g., 1000000).
+            client (JsonRpcClient): XRPL client.
+
+        Returns:
+            dict: XRPL transaction result.
+        """
+        trust_set_tx = TrustSet(
+            account=wallet.classic_address,
+            limit_amount=IssuedCurrencyAmount(
+                currency=currency_code,
+                issuer=issuer_address,
+                value=str(limit)
+            ),
+            flags=TrustSetFlag.TF_CLEAR_NO_RIPPLE
+        )
+
+        signed_tx = autofill_and_sign(trust_set_tx, client, wallet)
+        response = submit_and_wait(signed_tx, client)
+        return response.result
+    
 class TrustLineAnalytics:
     @staticmethod
     def decode_currency(currency_hex):
@@ -213,3 +378,19 @@ class TrustLineAnalytics:
         summary["currencies"].update(currency_summary)  # safe to do after iteration
 
         return summary
+    
+
+
+# try:
+#     result = TrustLine.send_issued_currency(
+#         wallet=wallet1,  # 👈 must already hold ETH issued by wallet3
+#         destination=wallet2.classic_address,  # 👈 must trust wallet3
+#         currency_code="ETH",
+#         issuer=wallet3.classic_address,
+#         amount=10,
+#         client=client
+#     )
+#     print("✅ Success:", result)
+# except XRPLException as e:
+#     print("❌ Failed:", str(e))
+
