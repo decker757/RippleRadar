@@ -21,6 +21,9 @@ CORS(app)
 def ping():
     return jsonify({"message": "pong"}), 200
     
+
+### TRUSTLINES ###  
+
     
     
 #Address to test functions: rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe
@@ -51,15 +54,7 @@ def get_balance():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
-@app.route("/api/get_trustlines")
-def get_trustlines():
-    address = request.args.get("address")
-    try:
-        trustlines = xrpl_utilities.TrustLineAnalytics.get_trustlines(address)
-        return jsonify({"Trustlines": trustlines})
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
-    
+
 
 @app.route("/api/summarize_trustlines")
 def summarize():
