@@ -1,0 +1,4 @@
+matplotlib
+numpy
+xrpl-py
+bcrypt
