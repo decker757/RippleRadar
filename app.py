@@ -1,6 +1,14 @@
+import os
+import datetime
+import jwt
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from dotenv import load_dotenv
 import xrpl_utilities
+import database
+
+load_dotenv()
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 app = Flask(__name__)
 CORS(app)
@@ -13,10 +21,10 @@ def login():
     username = data.get("username")
     password = data.get("password")
     
-    if username == "test" and password == "test":
-        return jsonify({'message': 'nice'}), 200
-    else:
-        return jsonify({'message': 'lol'}), 401
+    # if username == "test" and password == "test":
+    #     return jsonify({'message': 'nice'}), 200
+    # else:
+    #     return jsonify({'message': 'lol'}), 401
     
     
     if database.validate_user_login(username, password):
