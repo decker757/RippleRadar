@@ -5,10 +5,13 @@ from xrpl.models.amounts import IssuedCurrencyAmount
 from xrpl.transaction import autofill_and_sign
 from xrpl.transaction import submit_and_wait
 from xrpl.models.requests import AccountLines
+from xrpl.models.requests import AccountTx
 
 
 import json
 import xrpl
+
+
 
 JSON_RPC_URL = "https://s.altnet.rippletest.net:51234/"
 client = JsonRpcClient(JSON_RPC_URL)
@@ -82,6 +85,20 @@ class Transaction:
         tx_response = Transaction.submit_transaction(signed_tx, client)
         Transaction.print_transaction_results(tx_response, tx_id)
         return Transaction.get_balance(from_account, client)
+    
+    @staticmethod
+    def get_transaction_history(address, limit = 10):
+        tx_request = AccountTx(
+            account=address,
+            ledger_index_min=-1,
+            ledger_index_max=-1,
+            limit=limit,
+            binary=False,
+            forward=False,
+        )
+        response = client.request(tx_request)
+        return response.result.get("transactions", [])
+
 
 class TrustLine:
     @staticmethod
