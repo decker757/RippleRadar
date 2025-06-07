@@ -172,6 +172,8 @@ class TrustLineAnalytics:
     @staticmethod
     def summarize_trustlines(address):
         lines = TrustLineAnalytics.get_trustlines(address)
+        print("DEBUG - Trustlines:", lines)
+
         summary = {
             "total_trustlines": 0,
             "currencies": {},
@@ -183,7 +185,11 @@ class TrustLineAnalytics:
             balance = float(line["balance"])
             limit = float(line["limit"])
 
-            if balance == 0 and limit == 0:
+            if (
+                float(line["balance"]) == 0 and
+                float(line["limit"]) == 0 and
+                float(line.get("limit_peer", 0)) == 0
+            ):
                 continue
 
             summary["total_trustlines"] += 1
