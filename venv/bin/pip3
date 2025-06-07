@@ -1,4 +1,4 @@
-#!/Users/raphaelkwek/Documents/Projects/RippleRadar/venv/bin/python3.12
+#!/Users/ernesttan/Documents/GitHub/RippleRadar/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
