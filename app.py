@@ -13,9 +13,19 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 app = Flask(__name__)
 CORS(app)
 
+
+
+
+
+@app.route("/ping", methods=["GET"])
+def ping():
+    return jsonify({"message": "pong"}), 200
+    
+    
+    
 #Address to test functions: rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe
 #login
-@app.route("/api/login", methods=['POST']) # Need to change to email instead of username
+@app.route("/api/login", methods=['POST']) 
 def login():
     data = request.get_json()
     username = data.get("username")

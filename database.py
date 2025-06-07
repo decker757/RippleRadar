@@ -41,23 +41,23 @@ def initialize_database():
     conn.commit()
     conn.close()
 
-def insert_user(full_name, username, password, address, secret):
-    conn = sqlite3.connect("users.db")
-    cursor = conn.cursor()
-    cursor.execute("""
-        INSERT INTO users (full_name, username, password, address, secret, funded)
-        VALUES (?, ?, ?, ?, ?, 1)
-    """, (full_name, username, password, address, secret))
-    conn.commit()
-    conn.close()
+# def insert_user(full_name, username, password, address, secret):
+#     conn = sqlite3.connect("users.db")
+#     cursor = conn.cursor()
+#     cursor.execute("""
+#         INSERT INTO users (full_name, username, password, address, secret, funded)
+#         VALUES (?, ?, ?, ?, ?, 1)
+#     """, (full_name, username, password, address, secret))
+#     conn.commit()
+#     conn.close()
 
-def user_exists(username):
-    conn = sqlite3.connect("users.db")
-    cursor = conn.cursor()
-    cursor.execute("SELECT id FROM users WHERE username = ?", (username,))
-    result = cursor.fetchone()
-    conn.close()
-    return result is not None
+# def user_exists(username):
+#     conn = sqlite3.connect("users.db")
+#     cursor = conn.cursor()
+#     cursor.execute("SELECT id FROM users WHERE username = ?", (username,))
+#     result = cursor.fetchone()
+#     conn.close()
+#     return result is not None
 
 
 def create_and_store_user(full_name, username, hashed_password):
